@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="5dp"
+    android:layout_marginLeft="10dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,8 +19,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nhập tên bạn vào đây!"
-        android:inputType="textPersonName"
-        android:text=" " />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView"
@@ -34,8 +33,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Nhập ngày sinh vào đây!"
-        android:inputType="textPersonName"
-        android:text=" " />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView2"
@@ -44,6 +42,7 @@
         android:text="Giới tính:" />
 
     <RadioGroup
+        android:id="@+id/rdgGioiTinh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -106,19 +105,21 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:text="Sở thích khác:" />
 
     <EditText
-        android:id="@+id/edtSoThich"
+        android:id="@+id/edtThichKhac"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_marginLeft="6dp"
         android:hint="Nhập sở thích khác"
         android:inputType="textPersonName"
-        android:text=" " />
+        android:text="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnXN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
